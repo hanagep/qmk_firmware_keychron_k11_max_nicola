@@ -78,8 +78,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [FN1] = LAYOUT_69_ansi(
         KC_TILD, KC_F1,    KC_F2,    KC_F3,   KC_F4,   KC_F5,    KC_F6,    KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_F11,   KC_F12,            _______, BL_TOGG,
         KC_KANA, _______,  KC_HOME,  KC_UP,   KC_END,  _______,            _______, _______, _______, _______,  _______,  KC_PSCR,  _______, _______, _______,
-        KC_CAPS, LALT(KC_GRV), KC_LEFT, KC_DOWN, KC_RGHT, _______,         _______, KC_INS,  KC_HOME, KC_PGUP,  KC_BSPC,  _______,  _______,          _______,
-        _______, KC_VOLD,  BT_HST1, BT_HST2, BT_HST3, BAT_LVL, KC_MDN_PRV, _______, KC_DEL,  KC_END,  KC_PGDN,  _______,            _______, BL_UP,
+        KC_CAPS, LALT(KC_GRV), KC_LEFT, KC_DOWN, KC_RGHT, _______,         KC_VOLU, KC_INS,  KC_HOME, KC_PGUP,  KC_BSPC,  _______,  _______,          _______,
+        _______, _______,  BT_HST1, BT_HST2, BT_HST3, BAT_LVL, KC_MDN_PRV, KC_VOLD, KC_DEL,  KC_END,  KC_PGDN,  _______,            _______, BL_UP,
         TG_JP, _______,  _______,             _______, _______,  _______,  _______,          _______,                               BL_TOGG, BL_DOWN, BL_STEP)
 };
 
