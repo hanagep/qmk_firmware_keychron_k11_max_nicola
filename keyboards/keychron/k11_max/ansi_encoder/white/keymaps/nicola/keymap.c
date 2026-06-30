@@ -28,14 +28,14 @@ enum layers{
 };
 
 enum custom_keycodes {
-    KC_KANA = NEW_SAFE_RANGE,
+    KC_KANA,
     KC_EISU,
     KC_WIN_SHFT_LEFT,
     KC_TEAM_MUTE,
     TG_JP,
     EISU_FN1,
     KANA_FN1,
-    KC_MDN_PRV
+    KC_MDN_PRV  = NEW_SAFE_RANGE
 };
 
 bool us_emu_enabled = false;
