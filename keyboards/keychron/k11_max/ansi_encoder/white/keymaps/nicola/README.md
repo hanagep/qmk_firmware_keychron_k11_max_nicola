@@ -56,6 +56,8 @@ FN1 or FN2キーホールド時はFN1レイヤに移動、ホームポジショ�
     *   ベースレイヤーの右上端（Muteキーの下）に配置。
 *   **Teamsミュート:** `KC_TEAM_MUTE` (Win + Alt + K)
     *   ベースレイヤーの最下段、右Cmdの左隣に配置。
+*   **VS Code markdown preview**: `FN + 右B`
+    * VS Code上でMarkDownのPreview表示。
     
 ### 6. ロータリーエンコーダ
 *   **押し込み:** ミュート `KC_MUTE`

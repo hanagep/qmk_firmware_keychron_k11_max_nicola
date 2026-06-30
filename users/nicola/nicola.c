@@ -129,6 +129,11 @@ void nicola_m_type(void) {
         case NG_3   : send_string("3" ); break;
         case NG_4   : send_string("4" ); break;
         case NG_5   : send_string("5" ); break;
+        case NG_6   : send_string("6" ); break;
+        case NG_7   : send_string("7" ); break;
+        case NG_8   : send_string("8" ); break;
+        case NG_9   : send_string("9" ); break;
+        case NG_0   : send_string("0" ); break;
 
         case NG_Q   : send_string("." ); break;
         case NG_W   : send_string("ka"); break;
@@ -182,7 +187,12 @@ void nicola_om_type(void) {
             case NG_3   : send_string("~" ); break;
             case NG_4   : send_string("[" ); break;
             case NG_5   : send_string("]" ); break;
-
+            case NG_6   : send_string("[" ); break;
+            case NG_7   : send_string("]" ); break;
+            case NG_8   : send_string("(" ); break;
+            case NG_9   : send_string(")" ); break;
+            case NG_0   : send_string("[" ); break;
+            
             case NG_Q   : send_string("la"); break;
             case NG_W   : send_string("e" ); break;
             case NG_E   : send_string("ri"); break;
@@ -226,6 +236,11 @@ void nicola_om_type(void) {
             case NG_3   : send_string("~" ); break;
             case NG_4   : send_string("[" ); break;
             case NG_5   : send_string("]" ); break;
+            case NG_6   : send_string("[" ); break;
+            case NG_7   : send_string("]" ); break;
+            case NG_8   : send_string("(" ); break;
+            case NG_9   : send_string(")" ); break;
+            case NG_0   : send_string("[" ); break;
 
             case NG_Q   :                    break;
             case NG_W   : send_string("ga"); break;
